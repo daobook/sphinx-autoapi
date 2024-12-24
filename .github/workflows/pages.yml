@@ -62,7 +62,7 @@ jobs:
           pip install -e .[docs] --upgrade
           conda install -c conda-forge pandoc compilers cppyy
           conda install -c conda-forge ffmpeg manim
-          pip install manim sphinx-design
+          pip install manim sphinx-design furo
           invoke doc
       - name: Setup Pages
         uses: actions/configure-pages@main
