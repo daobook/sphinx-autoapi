@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Read the Docs
+# This file is distributed under the same license as the Sphinx AutoAPI
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx AutoAPI 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 14:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../maintenance/release-process.rst:2
+msgid "Release Process"
+msgstr ""
+
+#: ../../maintenance/release-process.rst:4
+msgid ""
+"This page documents the steps to be taken to release a new version of "
+"Sphinx AutoAPI."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:7
+msgid "Pre-Checks"
+msgstr ""
+
+#: ../../maintenance/release-process.rst:9
+msgid "Check that the dependencies of the package are correct."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:10
+msgid "Clean the ``.tox`` directory and run the tests."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:11
+msgid "Commit and push any changes needed to make the tests pass."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:12
+#: ../../maintenance/release-process.rst:20
+msgid "Check that the tests passed on github."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:15
+msgid "Preparation"
+msgstr ""
+
+#: ../../maintenance/release-process.rst:17
+msgid "Update the version numbers in ``autoapi/__init__.py``."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:18
+msgid "Run ``tox -e release_notes -- build``"
+msgstr ""
+
+#: ../../maintenance/release-process.rst:19
+msgid "Commit and push the changes."
+msgstr ""
+
+#: ../../maintenance/release-process.rst:23
+msgid "Release"
+msgstr ""
+
+#: ../../maintenance/release-process.rst:25
+msgid ""
+"Create a new release in github that tags the commit and uses the built "
+"release notes as the description. The tag created by the release will "
+"trigger the github actions to build and upload the package to PyPI."
+msgstr ""
+

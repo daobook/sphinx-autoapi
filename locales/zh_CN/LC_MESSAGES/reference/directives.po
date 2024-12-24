@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Read the Docs
+# This file is distributed under the same license as the Sphinx AutoAPI
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx AutoAPI 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 14:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../reference/directives.rst:2
+msgid "Directives"
+msgstr "指令"
+
+#: ../../reference/directives.rst:7
+msgid "Autodoc-Style Directives"
+msgstr "Autodoc 风格指令"
+
+#: ../../reference/directives.rst:9
+msgid ""
+"You can opt to write API documentation yourself using autodoc style "
+"directives. These directives work similarly to autodoc, but docstrings "
+"are retrieved through static analysis instead of through imports."
+msgstr ""
+"您可以选择使用 autodoc 风格的指令自行编写 API 文档。这些指令的工作方式与 autodoc 类似，但文档字符串是通过静态分析而不是通过导入来获取的。"
+
+#: ../../reference/directives.rst:15
+msgid ""
+"When transitioning to autodoc-style documentation, you may want to turn "
+"the :confval:`autoapi_generate_api_docs` option off so that automatic API"
+" documentation is no longer generated."
+msgstr ""
+"当过渡到 autodoc 风格的文档时，您可能希望关闭 :confval:`autoapi_generate_api_docs` 选项，以便不再自动生成 API 文档。"
+
+#: ../../reference/directives.rst:19
+msgid ""
+"To use these directives you will need to enable the autodoc extension in "
+"your Sphinx project's ``conf.py``:"
+msgstr ""
+
+#: ../../reference/directives.rst:27
+msgid ""
+"For Python, all directives have an autodoc equivalent and accept the same"
+" options. The following directives are available:"
+msgstr ""
+
+#: ../../reference/directives.rst:35
+msgid ""
+"Equivalent to :rst:dir:`automodule`, :rst:dir:`autoclass`, and "
+":rst:dir:`autoexception` respectively. "
+":confval:`autodoc_inherit_docstrings` does not currently work."
+msgstr ""
+
+#: ../../reference/directives.rst:44
+msgid ""
+"Equivalent to :rst:dir:`autofunction`, :rst:dir:`autodata`, "
+":rst:dir:`automethod`, and :rst:dir:`autoattribute` respectively."
+msgstr ""
+
+#: ../../reference/directives.rst:49
+msgid "Inheritance Diagrams"
+msgstr ""
+
+#: ../../reference/directives.rst:53
+msgid ""
+"This directive uses the :mod:`sphinx.ext.inheritance_diagram` extension "
+"to create inheritance diagrams for classes."
+msgstr ""
+
+#: ../../reference/directives.rst:56
+msgid "For example:"
+msgstr ""
+
+#: ../../reference/directives.rst:61
+msgid ""
+":mod:`sphinx.ext.inheritance_diagram` makes use of the "
+":mod:`sphinx.ext.graphviz` extension, and therefore it requires `Graphviz"
+" <https://graphviz.org/>`_ to be installed."
+msgstr ""
+
+#: ../../reference/directives.rst:65
+msgid ""
+"The directive can be configured using the same options as "
+":mod:`sphinx.ext.inheritance_diagram`."
+msgstr ""
+

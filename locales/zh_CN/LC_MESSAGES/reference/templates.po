@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Read the Docs
+# This file is distributed under the same license as the Sphinx AutoAPI
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx AutoAPI 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 14:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../reference/templates.rst:2
+msgid "Templates"
+msgstr ""
+
+#: ../../reference/templates.rst:4
+msgid ""
+"A lot of the power from AutoAPI comes from templates. We are basically "
+"building a mapping from code to docs, and templates let you highly "
+"customise the display of said docs."
+msgstr ""
+
+#: ../../reference/templates.rst:9
+msgid "Structure"
+msgstr ""
+
+#: ../../reference/templates.rst:11
+msgid ""
+"Every type of data structure has its own template. It uses the form "
+":samp:`python/{type}.rst` to find the template to render. The full search"
+" path is:"
+msgstr ""
+
+#: ../../reference/templates.rst:15
+msgid ":samp:`python/{type}.rst`"
+msgstr ""
+
+#: ../../reference/templates.rst:17
+msgid "So for a Python Class, this would resolve to:"
+msgstr ""
+
+#: ../../reference/templates.rst:19
+msgid ":samp:`python/class.rst`"
+msgstr ""
+
+#: ../../reference/templates.rst:21
+msgid ""
+"We provide :samp:`base/base.rst` as an incredibly basic output of every "
+"object::"
+msgstr ""
+
+#: ../../reference/templates.rst:27
+msgid "Custom Filters, Tests, and Globals"
+msgstr ""
+
+#: ../../reference/templates.rst:29
+msgid ""
+"The :confval:`autoapi_prepare_jinja_env` configuration option allows you "
+"to pass a callback that can edit the :class:`jinja2.Environment` object "
+"before rendering begins. This callback, among other things, can be used "
+"to add custom filters, tests, and/or globals to the Jinja environment. "
+"For example:"
+msgstr ""
+
+#: ../../reference/templates.rst:42
+msgid "Context"
+msgstr ""
+
+#: ../../reference/templates.rst:44
+msgid ""
+"Every template is given a set context that can be accessed in the "
+"templates. This contains:"
+msgstr ""
+
+#: ../../reference/templates.rst:47
+msgid ""
+"``autoapi_options``: The value of the :confval:`autoapi_options` "
+"configuration option."
+msgstr ""
+
+#: ../../reference/templates.rst:49
+msgid ""
+"``include_summaries``: The value of the "
+":confval:`autoapi_include_summaries` configuration option."
+msgstr ""
+
+#: ../../reference/templates.rst:51
+msgid "``obj``: A Python object derived from :class:`PythonPythonMapper`."
+msgstr ""
+
+#: ../../reference/templates.rst:52
+msgid ""
+"``own_page_types``: A set of strings that contains the object types that "
+"render on their own page."
+msgstr ""
+
+#: ../../reference/templates.rst:54
+msgid "``sphinx_version``: The contents of :attr:`sphinx.version_info`."
+msgstr ""
+
+#: ../../reference/templates.rst:56
+msgid ""
+"The object in ``obj`` has a number of standard attributes that you can "
+"reliably access."
+msgstr ""
+
+#: ../../reference/templates.rst:61
+msgid ""
+"These classes should not be constructed manually. They can be reliably "
+"accessed through templates and :event:`autoapi-skip-member` only."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass:1
+#: autoapi._objects.PythonData:1 autoapi._objects.PythonFunction:1
+#: autoapi._objects.PythonProperty:1
+#: autoapi._objects.TopLevelPythonPythonMapper:1 of
+msgid "Bases: :class:`PythonObject`"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonFunction:1 of
+msgid "The representation of a function."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass.args:1
+#: autoapi._objects.PythonFunction.args:1 of
+msgid "The arguments to this object, formatted as a string."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonAttribute.member_order:1
+#: autoapi._objects.PythonClass.member_order:1
+#: autoapi._objects.PythonData.member_order:1
+#: autoapi._objects.PythonException.member_order:1
+#: autoapi._objects.PythonFunction.member_order:1
+#: autoapi._objects.PythonMethod.member_order:1
+#: autoapi._objects.PythonProperty.member_order:1 of
+msgid "The ordering of objects when doing \"groupwise\" sorting."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonFunction.overloads:1 of
+msgid "The overloaded signatures of this function."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonFunction.overloads:3 of
+msgid "Each tuple is a tuple of ``(args, return_annotation)``"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonFunction.properties:1 of
+msgid "The properties that describe what type of function this is."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonFunction.properties:3 of
+msgid "Can be only be: async."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonFunction.return_annotation:1 of
+msgid "The type annotation for the return type of this function."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonData.annotation:3
+#: autoapi._objects.PythonFunction.return_annotation:3 of
+msgid ""
+"This will be ``None`` if an annotation or annotation comment was not "
+"given."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonMethod:1 of
+msgid "Bases: :class:`PythonFunction`"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonMethod:1 of
+msgid "The representation of a method."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonMethod.properties:1 of
+msgid "The properties that describe what type of method this is."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonMethod.properties:3 of
+msgid "Can be any of: abstractmethod, async, classmethod, property, staticmethod."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonProperty:1 of
+msgid "The representation of a property on a class."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonProperty.annotation:1 of
+msgid "The type annotation of this property."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonProperty.properties:1 of
+msgid "The properties that describe what type of property this is."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonProperty.properties:3 of
+msgid "Can be any of: abstractmethod, classmethod."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonData:1 of
+msgid "Global, module level data."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonData.annotation:1 of
+msgid "The type annotation of this attribute."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonData.value:1 of
+msgid "The value of this attribute."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonData.value:3 of
+msgid "This will be ``None`` if the value is not constant."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonAttribute:1 of
+msgid "Bases: :class:`PythonData`"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonAttribute:1 of
+msgid "An object/class level attribute."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper:1 of
+msgid "A common base class for modules and packages."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.all:1 of
+msgid "The contents of ``__all__`` if assigned to."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.all:3 of
+msgid ""
+"Only constants are included. This will be ``None`` if no ``__all__`` was "
+"set."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.all
+#: autoapi._objects.TopLevelPythonPythonMapper.classes
+#: autoapi._objects.TopLevelPythonPythonMapper.functions of
+msgid "type"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.all:6 of
+msgid "list(str) or None"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.classes:1 of
+msgid "All of the member classes."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.classes:3 of
+msgid "list(PythonClass)"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.functions:1
+#: of
+msgid "All of the member functions."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.functions:3
+#: of
+msgid "list(PythonFunction)"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.TopLevelPythonPythonMapper.output_dir:1
+#: autoapi._objects.TopLevelPythonPythonMapper.output_filename:1 of
+msgid "The path to the file to render into, without a file suffix."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonModule:1
+#: autoapi._objects.PythonPackage:1 of
+msgid "Bases: :class:`TopLevelPythonPythonMapper`"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonModule:1 of
+msgid "The representation of a module."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonPackage:1 of
+msgid "The representation of a package."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass:1 of
+msgid "The representation of a class."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass.bases:1 of
+msgid "The fully qualified names of all base classes."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass.docstring:1 of
+msgid "The docstring for this object."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass.docstring:3 of
+msgid "If a docstring did not exist on the object, this will be the empty string."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonClass.docstring:6 of
+msgid ""
+"For classes, this will also depend on the "
+":confval:`autoapi_python_class_content` option."
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonException:1 of
+msgid "Bases: :class:`PythonClass`"
+msgstr ""
+
+#: ../../../docstring autoapi._objects.PythonException:1 of
+msgid "The representation of an exception class."
+msgstr ""
+

@@ -19,6 +19,12 @@ author = "Read the Docs"
 version = ".".join(str(x) for x in autoapi.__version_info__[:2])
 release = autoapi.__version__
 
+# == 国际化输出 ========================================================================
+language = 'zh_CN'
+locale_dirs = ['../locales/']  # po files will be created in this directory
+# Sphinx document translation with sphinx gettext feature uses these settings:
+gettext_compact = False
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 

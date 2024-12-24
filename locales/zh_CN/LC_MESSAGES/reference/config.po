@@ -1,0 +1,454 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Read the Docs
+# This file is distributed under the same license as the Sphinx AutoAPI
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx AutoAPI 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 14:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../reference/config.rst:2
+msgid "Configuration Options"
+msgstr ""
+
+#: ../../reference/config.rst:6
+msgid "**Required**"
+msgstr ""
+
+#: ../../reference/config.rst:8
+msgid ""
+"Paths (relative or absolute) to the source code that you wish to generate"
+" your API documentation from. The paths are searched recursively for "
+"files matching :confval:`autoapi_file_patterns`. Relative paths should be"
+" relative to the source directory of your documentation."
+msgstr ""
+
+#: ../../reference/config.rst:12
+msgid ""
+"For Python, if a package directory is specified, the package directory "
+"itself will be included in the relative path of the children. If an "
+"ordinary directory is specified, that directory will not be included in "
+"the relative path."
+msgstr ""
+
+#: ../../reference/config.rst:19
+msgid "Default: ``''``"
+msgstr ""
+
+#: ../../reference/config.rst:21
+msgid ""
+"A directory that has user-defined templates to override our default "
+"templates. The path can either be absolute, or relative to the source "
+"directory of your documentation files. An path relative to where `sphinx-"
+"build` is run is allowed for backwards compatibility only and will be "
+"removed in a future version."
+msgstr ""
+
+#: ../../reference/config.rst:28
+msgid ""
+"You can view the default templates in the `autoapi/templates "
+"<https://github.com/readthedocs/sphinx-"
+"autoapi/tree/master/autoapi/templates>`_ directory of the package."
+msgstr ""
+
+#: ../../reference/config.rst:34
+msgid "Default: ``['*.py', '*.pyi']``"
+msgstr ""
+
+#: ../../reference/config.rst:36
+msgid ""
+"A list containing the file patterns to look for when generating "
+"documentation. Patterns should be listed in order of preference. For "
+"example, if ``autoapi_file_patterns`` is set to the default value and a "
+"`.py` file and a `.pyi` file are found, then the `.py` will be read."
+msgstr ""
+
+#: ../../reference/config.rst:45 ../../reference/config.rst:107
+msgid "Default: ``True``"
+msgstr ""
+
+#: ../../reference/config.rst:47
+msgid ""
+"Whether to generate API documentation. If this is ``False``, "
+"documentation should be generated though the :doc:`directives`."
+msgstr ""
+
+#: ../../reference/config.rst:53
+msgid "Customisation Options"
+msgstr ""
+
+#: ../../reference/config.rst:57
+msgid ""
+"Default: [ ``'members'``, ``'undoc-members'``, ``'private-members'``, "
+"``'show-inheritance'``, ``'show-module-summary'``, ``'special-members'``,"
+" ``'imported-members'``, ]"
+msgstr ""
+
+#: ../../reference/config.rst:67
+msgid "Options for display of the generated documentation."
+msgstr ""
+
+#: ../../reference/config.rst:69
+msgid "``members``: Display children of an object"
+msgstr ""
+
+#: ../../reference/config.rst:70
+msgid ""
+"``inherited-members``: Display children of an object that have been "
+"inherited from a base class. Members from standard library base classes "
+"are not included, unless the base class is abstract."
+msgstr ""
+
+#: ../../reference/config.rst:74
+msgid "``undoc-members``: Display objects that have no docstring"
+msgstr ""
+
+#: ../../reference/config.rst:75
+msgid "``private-members``: Display private objects (eg. ``_foo`` in Python)"
+msgstr ""
+
+#: ../../reference/config.rst:76
+msgid "``special-members``: Display special objects (eg. ``__foo__`` in Python)"
+msgstr ""
+
+#: ../../reference/config.rst:77
+msgid ""
+"``show-inheritance``: Display a list of base classes below the class "
+"signature."
+msgstr ""
+
+#: ../../reference/config.rst:78
+msgid ""
+"``show-inheritance-diagram``: Display an inheritance diagram in generated"
+" class documentation. It makes use of the "
+":mod:`sphinx.ext.inheritance_diagram` extension, and requires `Graphviz "
+"<https://graphviz.org/>`_ to be installed."
+msgstr ""
+
+#: ../../reference/config.rst:82
+msgid ""
+"``show-module-summary``: Whether to include autosummary directives in "
+"generated module documentation."
+msgstr ""
+
+#: ../../reference/config.rst:84
+msgid ""
+"``imported-members``: For objects imported into a package, display "
+"objects imported from the same top level package or module. This option "
+"does not effect objects imported into a module."
+msgstr ""
+
+#: ../../reference/config.rst:91
+msgid "Default: ``['*migrations*']``"
+msgstr ""
+
+#: ../../reference/config.rst:93
+msgid "A list of patterns to ignore when finding files."
+msgstr ""
+
+#: ../../reference/config.rst:97
+msgid "Default: ``autoapi``"
+msgstr ""
+
+#: ../../reference/config.rst:99
+msgid ""
+"Path to output the generated AutoAPI files into, including the generated "
+"index page. This path must be relative to the source directory of your "
+"documentation files. This can be used to place the generated "
+"documentation anywhere in your documentation hierarchy."
+msgstr ""
+
+#: ../../reference/config.rst:109
+msgid ""
+"Whether to insert the generated documentation into the TOC tree. If this "
+"is ``False``, the default AutoAPI index page is not generated and you "
+"will need to include the generated documentation in a TOC tree entry "
+"yourself."
+msgstr ""
+
+#: ../../reference/config.rst:116
+msgid "Default: ``class``"
+msgstr ""
+
+#: ../../reference/config.rst:118
+msgid "Which docstring to insert into the content of a class."
+msgstr ""
+
+#: ../../reference/config.rst:120
+msgid "``class``: Use only the class docstring."
+msgstr ""
+
+#: ../../reference/config.rst:121
+msgid ""
+"``both``: Use the concatenation of the class docstring and the "
+"``__init__`` docstring."
+msgstr ""
+
+#: ../../reference/config.rst:123
+msgid "``init``: Use only the ``__init__`` docstring."
+msgstr ""
+
+#: ../../reference/config.rst:125
+msgid ""
+"If the class does not have an ``__init__`` or the ``__init__`` docstring "
+"is empty and the class defines a ``__new__`` with a docstring, the "
+"``__new__`` docstring is used instead of the ``__init__`` docstring."
+msgstr ""
+
+#: ../../reference/config.rst:131
+msgid "Default: ``bysource``"
+msgstr ""
+
+#: ../../reference/config.rst:133
+msgid "The order to document members. This option can have the following values:"
+msgstr ""
+
+#: ../../reference/config.rst:135
+msgid "``alphabetical``: Order members by their name, case sensitively."
+msgstr ""
+
+#: ../../reference/config.rst:137
+msgid ""
+"``bysource``: Order members by the order that they were defined in the "
+"source code."
+msgstr ""
+
+#: ../../reference/config.rst:139
+msgid ""
+"``groupwise``: Order members by their type then alphabetically, ordering "
+"the types as follows:"
+msgstr ""
+
+#: ../../reference/config.rst:142
+msgid "Submodules and subpackages"
+msgstr ""
+
+#: ../../reference/config.rst:144
+msgid "Attributes"
+msgstr ""
+
+#: ../../reference/config.rst:146
+msgid "Exceptions"
+msgstr ""
+
+#: ../../reference/config.rst:148
+msgid "Classes"
+msgstr ""
+
+#: ../../reference/config.rst:150
+msgid "Functions"
+msgstr ""
+
+#: ../../reference/config.rst:152
+msgid "Methods"
+msgstr ""
+
+#: ../../reference/config.rst:157 ../../reference/config.rst:250
+msgid "Default: ``False``"
+msgstr ""
+
+#: ../../reference/config.rst:159
+msgid ""
+"This changes the package detection behaviour to be compatible with "
+":pep:`420`, but directories in :confval:`autoapi_dirs` are no longer "
+"searched recursively for packages. Instead, when this is ``True``, "
+":confval:`autoapi_dirs` should point directly to the directories of "
+"implicit namespaces and the directories of packages."
+msgstr ""
+
+#: ../../reference/config.rst:167
+msgid ""
+"If searching is still required, this should be done manually in the "
+"``conf.py``."
+msgstr ""
+
+#: ../../reference/config.rst:173
+msgid "Default: ``None``"
+msgstr ""
+
+#: ../../reference/config.rst:175
+msgid ""
+"A callback that is called shortly after the Jinja environment is created."
+" The callback is passed the Jinja environment for editing before template"
+" rendering begins."
+msgstr ""
+
+#: ../../reference/config.rst:178
+msgid "The callback should have the following signature:"
+msgstr ""
+
+#: ../../reference/config.rst:186
+msgid "Default: ``'module'``"
+msgstr ""
+
+#: ../../reference/config.rst:188
+msgid ""
+"This configuration value specifies the level at which objects are "
+"rendered on a single page. Valid levels, in descending order of "
+"hierarchy, are as follows:"
+msgstr ""
+
+#: ../../reference/config.rst:192
+msgid "``module``: Packages, modules, subpackages, and submodules."
+msgstr ""
+
+#: ../../reference/config.rst:194
+msgid "``class``: Classes, exceptions, and all object types mentioned above."
+msgstr ""
+
+#: ../../reference/config.rst:196
+msgid "``function``: Functions, and all object types mentioned above."
+msgstr ""
+
+#: ../../reference/config.rst:198
+msgid "``method``: Methods, and all object types mentioned above."
+msgstr ""
+
+#: ../../reference/config.rst:200
+msgid ""
+"``attribute``: Class and module level attributes, properties, and all "
+"object types mentioned above."
+msgstr ""
+
+#: ../../reference/config.rst:205
+msgid "Events"
+msgstr ""
+
+#: ../../reference/config.rst:207
+msgid "The following events allow you to control the behaviour of AutoAPI."
+msgstr ""
+
+#: ../../reference/config.rst:211
+msgid ""
+"Emitted when a template has to decide whether a member should be included"
+" in the documentation. Usually the member is skipped if a handler returns"
+" ``True``, and included otherwise. Handlers should return ``None`` to "
+"fall back to the default skipping behaviour of AutoAPI or another "
+"attached handler."
+msgstr ""
+
+#: ../../reference/config.rst:218
+msgid "Example conf.py"
+msgstr ""
+
+#: ../../reference/config.rst
+msgid "Parameters"
+msgstr ""
+
+#: ../../reference/config.rst:229
+msgid "The Sphinx application object."
+msgstr ""
+
+#: ../../reference/config.rst:230
+msgid ""
+"The type of the object which the docstring belongs to. This can be one "
+"of: ``\"attribute\"``, ``\"class\"``, ``\"data\"``, ``\"exception\"``, "
+"``\"function\"``, ``\"method\"``, ``\"module\"``, ``\"package\"``."
+msgstr ""
+
+#: ../../reference/config.rst:235
+msgid "The fully qualified name of the object."
+msgstr ""
+
+#: ../../reference/config.rst:237
+msgid "The object itself."
+msgstr ""
+
+#: ../../reference/config.rst:239
+msgid ""
+"Whether AutoAPI will skip this member if the handler does not override "
+"the decision."
+msgstr ""
+
+#: ../../reference/config.rst:242
+msgid "The options given to the directive."
+msgstr ""
+
+#: ../../reference/config.rst:246
+msgid "Advanced Options"
+msgstr ""
+
+#: ../../reference/config.rst:252
+msgid ""
+"Keep the AutoAPI generated files on the filesystem after the run. Useful "
+"for debugging or transitioning to manual documentation."
+msgstr ""
+
+#: ../../reference/config.rst:255
+msgid ""
+"Keeping files will also allow AutoAPI to use incremental builds. "
+"Providing none of the source files have changed, AutoAPI will skip "
+"parsing the source code and regenerating the API documentation."
+msgstr ""
+
+#: ../../reference/config.rst:261
+msgid "Suppressing Warnings"
+msgstr ""
+
+#: ../../reference/config.rst:265
+msgid ""
+"This is a sphinx builtin option that enables the granular filtering of "
+"AutoAPI generated warnings."
+msgstr ""
+
+#: ../../reference/config.rst:268
+msgid ""
+"Items in the ``suppress_warnings`` list are of the format "
+"``\"type.subtype\"`` where ``\".subtype\"`` can be left out to cover all "
+"subtypes. To suppress all AutoAPI warnings add the type ``\"autoapi\"`` "
+"to the list:"
+msgstr ""
+
+#: ../../reference/config.rst:276
+msgid "If narrower suppression is wanted, the available subtypes for AutoAPI are:"
+msgstr ""
+
+#: ../../reference/config.rst:278
+msgid ""
+"``python_import_resolution``: Emitted if resolving references to objects "
+"in an imported module failed. Potential reasons include cyclical imports "
+"and missing (parent) modules."
+msgstr ""
+
+#: ../../reference/config.rst:281
+msgid ""
+"``not_readable``: Emitted if processing (opening, parsing, ...) an input "
+"file failed."
+msgstr ""
+
+#: ../../reference/config.rst:283
+msgid ""
+"``toc_reference``: Emitted if a reference to an entry in a table of "
+"content cannot be resolved."
+msgstr ""
+
+#: ../../reference/config.rst:285
+msgid ""
+"``nothing_rendered``: Emitted if nothing was found to be documented. "
+"Potential reasons include no files being found in :confval:`autoapi_dirs`"
+" that match :confval:`autoapi_file_patterns`, or all discovered modules "
+"and objects being excluded from rendering due to "
+":confval:`autoapi_options` or :ref:`other rendering exclusions "
+"<customise-documented-api>`."
+msgstr ""
+
+#: ../../reference/config.rst:292
+msgid ""
+"So if all AutoAPI warnings concerning unreadable sources and failing "
+"Python imports should be filtered, but all other warnings should not, the"
+" option would be"
+msgstr ""
+

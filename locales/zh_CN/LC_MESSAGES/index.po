@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Read the Docs
+# This file is distributed under the same license as the Sphinx AutoAPI
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Sphinx AutoAPI 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 14:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../index.rst:2
+msgid "Sphinx AutoAPI"
+msgstr ""
+
+#: ../../index.rst:4
+msgid ""
+"Sphinx AutoAPI is a Sphinx extension for generating complete API "
+"documentation without needing to load, run, or import the project being "
+"documented."
+msgstr ""
+"Sphinx AutoAPI 是用于生成完整 API 文档的 Sphinx 扩展，无需加载、运行或导入正在记录的项目。"
+
+#: ../../index.rst:7
+msgid ""
+"In contrast to the traditional `Sphinx autodoc <https://www.sphinx-"
+"doc.org/en/master/usage/extensions/autodoc.html>`_, which requires some "
+"manual authoring and uses code imports, AutoAPI finds and generates "
+"documentation by parsing source code."
+msgstr ""
+"与传统的 `Sphinx autodoc <https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html>`_ 不同，"
+"AutoAPI 通过解析源代码来查找和生成文档，而无需手动编写作者指南或使用代码导入。"
+
+#: ../../index.rst:15
+msgid "Beginner Guides"
+msgstr "入门指南"
+
+#: ../../index.rst:17
+msgid ""
+"New to AutoAPI? Check out the Tutorials. They are a hands-on introduction"
+" for beginners."
+msgstr ""
+"新用户？查看教程。它们是初学者的动手介绍。"
+
+#: ../../index.rst:22
+msgid "To the beginner guides"
+msgstr ""
+
+#: ../../index.rst:29
+msgid "User Guides"
+msgstr "用户指南"
+
+#: ../../index.rst:31
+msgid "The user guides are recipes for key tasks and common problems."
+msgstr "用户指南是关键任务和常见问题的解决方案。"
+
+#: ../../index.rst:35
+msgid "To the user guides"
+msgstr ""
+
+#: ../../index.rst:42
+msgid "Reference Guide"
+msgstr "参考指南"
+
+#: ../../index.rst:44
+msgid ""
+"The reference guide contains a detailed description of the configuration "
+"options, directives, and templates included in AutoAPI."
+msgstr ""
+"参考指南包含 AutoAPI 中包含的配置选项、指令和模板的详细描述。"
+
+#: ../../index.rst:49
+msgid "To the reference guide"
+msgstr ""
+
+#: ../../index.rst:56
+msgid "Contributor Guides"
+msgstr "贡献者指南"
+
+#: ../../index.rst:58
+msgid ""
+"Want to add to the codebase? The contributing guidelines will guide you "
+"through the process of improving AutoAPI."
+msgstr ""
+"想为代码库做出贡献？贡献者指南将指导您改进 AutoAPI。"
+
+#: ../../index.rst:64
+msgid "To the contributor guides"
+msgstr ""
+
