@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../reference/config.rst:2
 msgid "Configuration Options"
-msgstr ""
+msgstr "配置选项"
 
 #: ../../reference/config.rst:6
 msgid "**Required**"
-msgstr ""
+msgstr "**必需**"
 
 #: ../../reference/config.rst:8
 msgid ""
@@ -35,6 +35,8 @@ msgid ""
 "files matching :confval:`autoapi_file_patterns`. Relative paths should be"
 " relative to the source directory of your documentation."
 msgstr ""
+"您希望从中生成 API 文档的源代码的路径（相对或绝对路径）。"
+"这些路径会递归搜索与 :confval:`autoapi_file_patterns` 匹配的文件。相对路径应相对于文档的源目录。"
 
 #: ../../reference/config.rst:12
 msgid ""
@@ -43,10 +45,12 @@ msgid ""
 "ordinary directory is specified, that directory will not be included in "
 "the relative path."
 msgstr ""
+"对于 Python，如果指定了包目录，包目录本身将包含在子目录的相对路径中。"
+"如果指定了普通目录，则该目录将不会包含在相对路径中。"
 
 #: ../../reference/config.rst:19
 msgid "Default: ``''``"
-msgstr ""
+msgstr "默认值： ``''``"
 
 #: ../../reference/config.rst:21
 msgid ""
@@ -56,6 +60,10 @@ msgid ""
 "build` is run is allowed for backwards compatibility only and will be "
 "removed in a future version."
 msgstr ""
+"用户定义的模板目录，用于覆盖我们的默认模板。"
+"路径可以是绝对的，也可以是相对于文档源目录的。"
+"注意：相对于 `sphinx-build` 运行的路径仅用于向后兼容。"
+"将来的版本将删除此路径。"
 
 #: ../../reference/config.rst:28
 msgid ""
@@ -63,10 +71,11 @@ msgid ""
 "<https://github.com/readthedocs/sphinx-"
 "autoapi/tree/master/autoapi/templates>`_ directory of the package."
 msgstr ""
-
+"您可以查看默认模板，请参阅 Sphinx AutoAPI 软件包的 `autoapi/templates <https://github.com/readthedocs/sphinx-"
+"autoapi/tree/master/autoapi/templates>`_ 目录。"
 #: ../../reference/config.rst:34
 msgid "Default: ``['*.py', '*.pyi']``"
-msgstr ""
+msgstr "默认： ``['*.py', '*.pyi']``"
 
 #: ../../reference/config.rst:36
 msgid ""
@@ -75,20 +84,23 @@ msgid ""
 "example, if ``autoapi_file_patterns`` is set to the default value and a "
 "`.py` file and a `.pyi` file are found, then the `.py` will be read."
 msgstr ""
+"当生成文档时，要查找的文件模式列表。"
+"例如，如果 ``autoapi_file_patterns`` 设置为默认值，并且找到 `.py` 文件和 `.pyi` 文件，那么 `.py` 文件将被读取。"
 
 #: ../../reference/config.rst:45 ../../reference/config.rst:107
 msgid "Default: ``True``"
-msgstr ""
+msgstr "默认值： ``True``"
 
 #: ../../reference/config.rst:47
 msgid ""
 "Whether to generate API documentation. If this is ``False``, "
 "documentation should be generated though the :doc:`directives`."
 msgstr ""
+"是否生成 API 文档。如果此选项为 ``False``，则应通过 :doc:`directives` 生成文档。"
 
 #: ../../reference/config.rst:53
 msgid "Customisation Options"
-msgstr ""
+msgstr "自定义选项"
 
 #: ../../reference/config.rst:57
 msgid ""
@@ -96,14 +108,17 @@ msgid ""
 "``'show-inheritance'``, ``'show-module-summary'``, ``'special-members'``,"
 " ``'imported-members'``, ]"
 msgstr ""
+"默认值： [ ``'members'``, ``'undoc-members'``, ``'private-members'``,"
+" ``'show-inheritance'``, ``'show-module-summary'``, ``'special-members'``,"
+" ``'imported-members'``, ]"
 
 #: ../../reference/config.rst:67
 msgid "Options for display of the generated documentation."
-msgstr ""
+msgstr "显示生成的文档的选项。"
 
 #: ../../reference/config.rst:69
 msgid "``members``: Display children of an object"
-msgstr ""
+msgstr "``members``: 显示对象的子项"
 
 #: ../../reference/config.rst:70
 msgid ""
